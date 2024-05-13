@@ -1,0 +1,105 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    ul{
+        list-style-type: none;
+    }
+    h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: rgb(138, 150, 9);
+
+    
+    }
+    span{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: rgb(150, 9, 131);
+        font-size: 20px;
+    
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    
+    }
+    
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(233, 18, 186);
+    color: rgb(40, 219, 195);    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+    font-size: 30px;
+    
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(215, 18, 233);
+    color: rgb(40, 219, 70);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin: 10px;
+
+    img{
+        width: 600px;
+        height: 300px;
+        margin: 3px;
+        object-fit: contain;
+    }
+
+}
+.flex-around {
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .flex-row  {
+        width: 45%; 
+    }
+}
+.cuadro{
+    background-color: antiquewhite;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+
+}
+    
+
+.cuadro:hover{
+    background-color: rgb(233, 18, 186);
+}
